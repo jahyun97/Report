@@ -15,7 +15,7 @@ https://www.mydlink.co.kr/2013/beta_board/product_detail.php?no=146&model=DIR-84
 ![Untitled](https://github.com/jahyun97/Report/assets/54326150/1e71c8d3-f997-4ea8-8e8a-7458802cac47)
 
 ## 3. Reproducing Vulnerability
-First, you can emulate firmware by using QEMU, Firmadyne, FirmAE, etc
+First, you can emulate firmware by using QEMU, Firmadyne, FirmAE, etc  
 Then you can access web interface.
 
 ![Untitled](https://github.com/jahyun97/Report/assets/54326150/c18a832f-3b65-4fad-b371-957a9aef9db6)
