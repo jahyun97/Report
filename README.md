@@ -5,10 +5,10 @@ You can download affected firmware version(v1.01KRb03) via below link.
 https://www.mydlink.co.kr/2013/beta_board/product_detail.php?no=146&model=DIR-845L
 
 ## 2. Vulnerability Overview
-**Vendor** : Dlink
-**Product** : DIR-845L Router
-**Vulnerability Type** : CWE78 OS Command Injection
-**Affected Version** : Firmware version below v1.01KRb03
+**Vendor** : Dlink  
+**Product** : DIR-845L Router  
+**Vulnerability Type** : CWE78 OS Command Injection  
+**Affected Version** : Firmware version below v1.01KRb03  
 **Description about vulnerability** : Command Injection Vulnerability exists in **cgibin** binary in **DIR-845L** router. In **ssdpcgi_main** function, HTTP request header parsing data obtained by the program via **getenv("HTTP_ST")** is pass to **lxmldbc_system**. And in **lxmldbc_system**, data pass directly to **system** without any filtering. Since there is no proper filtering process, attacker can send malicious data and can execute arbitrary command.
 
 ![Untitled](https://github.com/jahyun97/Report/assets/54326150/f7749a07-bd62-447b-8b37-a395cf76cdf8)
